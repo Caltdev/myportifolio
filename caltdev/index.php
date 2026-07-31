@@ -12,6 +12,7 @@
         <!-- Start header -->
         <?php include './partials/header.php' ?>
         <!-- end of header -->
+         
         <!-- start of hero -->
         <section class="static-hero" id='div'>
             <div class="hero-container">
@@ -48,15 +49,15 @@
                 <div class="static-hero-img">
                     <div class="static-hero-img-inner">
                         <img class="calton-photo-banner" src="assets/images/slider/calton.jpg" alt="Calton Tachiwona">
-                        <div class="icon-1 floating-item"><img src="assets/images/icon/photoshop.svg" alt=""></div>
-                        <div class="icon-2 floating-item"><img src="assets/images/icon/illustrator.svg" alt=""></div>
-                        <div class="icon-3 floating-item"><img src="assets/images/icon/diamond.svg" alt=""></div>
+                        <!-- <div class="icon-1 floating-item"><img src="assets/images/icon/photoshop.svg" alt=""></div>
+                        <div class="icon-2 floating-item"><img src="assets/images/icon/illustrator.svg" alt=""></div> -->
+                        <!-- <div class="icon-3 floating-item"><img src="assets/images/icon/diamond.svg" alt=""></div> -->
                         <div class="project floating-item">
                             <div class="icon">
                                 <i class="fi flaticon-verified"></i>
                             </div>
                             <div class="p-text">
-                                <h3><span class="odometer" data-count="1500">00</span>+</h3>
+                                <h3><span class="odometer" data-count="7">00</span>+</h3>
                                 <p>Complete Project</p>
                             </div>
                         </div>
@@ -165,7 +166,7 @@
                                     <div class="grid">
                                         <div class="grid-inner">
                                             <h3>DevOps</h3>
-                                            <p>Docker & Nginx</p>
+                                            <p>CI/CD, Docker & Nginx</p>
                                         </div>
                                     </div>
                                     <!-- Box 4 -->
@@ -185,8 +186,8 @@
                                     <!-- Box 6 -->
                                     <div class="grid">
                                         <div class="grid-inner">
-                                            <h3>SysAdmin</h3>
-                                            <p>Linux, M365 & Active Directory</p>
+                                            <h3>Version Control</h3>
+                                            <p>GitHub & GitLab</p>
                                         </div>
                                     </div>
                                 </div>
@@ -255,7 +256,7 @@
         </style>
         <!-- end of wpo-about-area -->
 
-        <?php include './partials/footer.php' ?>
+        <?php include './partials/footer-two.php' ?>
         <!-- end wpo-site-footer -->
 
     </div>

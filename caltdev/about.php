@@ -10,15 +10,10 @@
         <?php include './partials/preloader.php' ?>
         <!-- end preloader -->
         <!-- Start header -->
-        <?php include './partials/header-two.php' ?>
+        <?php include './partials/header.php' ?>
         <!-- end of header -->
         <!-- start wpo-page-title -->
-        <?php
-        $mainTitle = 'About Me';
-        $Title = 'Home';
-        $Title2 = 'About';
-        ?>
-        <?php include './partials/page-header.php' ?>
+      
         <!-- end page-title -->
         <!-- start of wpo-about-area -->
         

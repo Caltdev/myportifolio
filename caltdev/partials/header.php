@@ -1,4 +1,4 @@
-<header id="header" class="wpo-header-style-1">
+<header id="header" class="wpo-header-style-2">
     <div class="wpo-site-header">
         <nav class="navigation navbar navbar-expand-lg navbar-light">
             <div class="container">
@@ -16,7 +16,7 @@
                     <div class="col-lg-2 col-md-6 col-6">
                         <div class="navbar-header">
                             <a class="navbar-brand site-logo" href="index.php"><img
-                                    src="assets/images/logo.png" alt="">Elito.</a>
+                                    src="assets/images/favicon.png" alt="Calton logo" style="width: 48px; height: 48px; object-fit: contain;">Calton</a>
                         </div>
                     </div>
                     <div class="col-lg-8 col-md-1 col-1">
@@ -29,7 +29,7 @@
                                 <li>
                                     <a href="about.php">About</a>
                                 </li>
-                                <!--  -->
+                                
                                 <li>
                                     <a href="contact.php">Contact</a>
                                 </li>
@@ -40,7 +40,7 @@
                     <div class="col-lg-2 col-md-2 col-2">
                         <div class="header-right">
                             <div class="header-btn">
-                                <a class="theme-btn" download="My Cv" href="assets/images/cv.jpg"
+                                <a class="theme-btn" download="Calton Tachiwona's Resume" href="assets/images/Calton Tachiwona's Resume.pdf"
                                     title="ImageName">
                                     <img class="hide-img" alt="ImageName" src="assets/images/cv.jpg">
                                     Resume

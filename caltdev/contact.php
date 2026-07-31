@@ -10,15 +10,10 @@
         <?php include './partials/preloader.php' ?>
         <!-- end preloader -->
         <!-- Start header -->
-        <?php include './partials/header-two.php' ?>
+        <?php include './partials/header.php' ?>
         <!-- end of header -->
         <!-- start wpo-page-title -->
-        <?php
-        $mainTitle = 'Contact';
-        $Title = 'Home';
-        $Title2 = 'Contact';
-        ?>
-        <?php include './partials/page-header.php' ?>
+       
         <!-- end page-title -->
         <!-- start wpo-contact-pg-section -->
         <section class="wpo-contact-pg-section section-padding">
@@ -133,12 +128,12 @@
         <!-- end wpo-contact-pg-section -->
 
         <!--  start wpo-contact-map -->
-        <section class="wpo-contact-map-section">
+        <!-- <section class="wpo-contact-map-section">
             <h2 class="hidden">Contact map</h2>
             <div class="wpo-contact-map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.9147703055!2d-74.11976314309273!3d40.69740344223377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1547528325671" allowfullscreen></iframe>
             </div>
-        </section>
+        </section> -->
         <!-- end wpo-contact-map -->
       
         <!-- start wpo-site-footer -->

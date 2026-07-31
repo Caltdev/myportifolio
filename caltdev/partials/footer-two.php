@@ -1,13 +1,13 @@
 <footer class="wpo-site-footer-s2">
     <div class="upper-footer">
         <div class="container">
-            <div class="row">
-                <div class="col col-lg-4 col-md-6 col-12">
+            <div class="row justify-content-center text-center">
+                <div class="col col-lg-3 col-md-4 col-12">
                     <div class="widget about-widget">
-                        <div class="logo widget-title">
-                            <a class="site-logo" href="index.php"><img src="assets/images/logo.png"
+                        <!-- <div class="logo widget-title">
+                            <a class="site-logo" href="index.php"><img src="assets/images/favicon.png"
                                     alt="">Elito.</a>
-                        </div>
+                        </div> -->
                         <p>Welcome and open yourself to your truest love this year with us! With the Release
                             Process</p>
                         <div class="social-icons">
@@ -21,46 +21,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="col col-lg-2 col-md-6 col-12">
+                <div class="col col-lg-3 col-md-4 col-12">
                     <div class="widget link-widget">
                         <div class="widget-title">
                             <h3>Navigation</h3>
                         </div>
                         <ul>
-                            <li><a href="about.php">About us</a></li>
-                            <li><a href="contact.php">Contact us</a></li>
-                            <li><a href="#video">Video Guide</a></li>
+                            <li><a href="about.php">About Me</a></li>
+                            <li><a href="contact.php">Contact Me</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col col-lg-3 col-md-6 col-12">
+                <div class="col col-lg-3 col-md-4 col-12">
                     <div class="widget link-widget service-link-widget">
                         <div class="widget-title">
-                            <h3>All Services</h3>
+                            <h3>Services</h3>
                         </div>
                         <ul>
-                            <li><a href="service-single.php">Web Design</a></li>
-                            <li><a href="service-single.php">Web Development</a></li>
-                            <li><a href="service-single.php">Brand Identity</a></li>
-                            <li><a href="service-single.php">Digital Marketing</a></li>
+                            <li><a href="about.php">Development</a></li>
+                            <li><a href="about.php">Design</a></li>
+                            <li><a href="about.php">ICT </a></li>
                         </ul>
-                    </div>
-                </div>
-                <div class="col col-lg-3 col-md-6 col-12">
-                    <div class="widget newsletter-widget">
-                        <div class="widget-title">
-                            <h3>Newsletter</h3>
-                        </div>
-                        <p>Must explain to you how all this mistaken idea pleasure born and give you a complete
-                            account.</p>
-                        <form>
-                            <div class="input-1">
-                                <input type="email" class="form-control" placeholder="Email Address *" required>
-                            </div>
-                            <div class="submit clearfix">
-                                <button type="submit"><i class="ti-email"></i></button>
-                            </div>
-                        </form>
                     </div>
                 </div>
             </div>
