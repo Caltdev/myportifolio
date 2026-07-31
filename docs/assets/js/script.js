@@ -236,6 +236,30 @@
         }
     }
 
+    function showPagePreloaderOnNavigation() {
+        $('a[href$=".html"]').on('click', function (e) {
+            var href = $(this).attr('href');
+
+            if (!href || href.indexOf('#') === 0 || href.indexOf('mailto:') === 0 || href.indexOf('tel:') === 0) {
+                return;
+            }
+
+            if (window.location.pathname.endsWith(href)) {
+                return;
+            }
+
+            e.preventDefault();
+
+            if ($('.preloader').length) {
+                $('.preloader').show().css('opacity', 1);
+            }
+
+            setTimeout(function () {
+                window.location.href = href;
+            }, 150);
+        });
+    }
+
 
     /*------------------------------------------
         = WOW ANIMATION SETTING
@@ -720,6 +744,7 @@
     $(window).on('load', function () {
 
         preloader();
+        showPagePreloaderOnNavigation();
 
         sortingGallery();
 
